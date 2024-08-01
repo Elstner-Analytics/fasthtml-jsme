@@ -1,6 +1,6 @@
 # fasthtml-jsme
 
-How to integrate a html library into fasthtml and how to draw molecules with JSME. This was a reoccurring task for me in the past and I thought it would be a nice try with the new fasthtml library.
+How to integrate a JavaScript library into fasthtml and how to draw molecules with JSME. This was a reoccurring task for me in the past and I thought it would be a nice excercise with the new fasthtml library.
 
 ![](screenshot.png)
 
