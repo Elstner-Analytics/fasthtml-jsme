@@ -1,6 +1,6 @@
 # fasthtml-jsme
 
-How to integrate a JavaScript library into fasthtml and how to draw molecules with JSME. This was a reoccurring task for me in the past and I thought it would be a nice excercise with the new fasthtml library.
+How to integrate a JavaScript library into fasthtml and how to draw molecules with JSME. This was a reoccurring task for me in the past and I thought it would be a nice exercise with the new fasthtml library.
 
 ![](screenshot.png)
 
@@ -54,7 +54,7 @@ app, rt = fast_app(hdrs=(jsme,jsmestyle))
 def static(fname:str, ext:str): return FileResponse(f'{fname}.{ext}')
 ```
 
-`fast_app` is a function that creates a fastapi app and a router. The `hdrs` parameter is used to add the JSME headers to the app. The `static` functions is used to serve static files from inside or below the `/` folder (you can place an image in the repo and link to it in your html and it will be served and available).
+`fast_app` is a function that creates a fasthtml app and a router. The `hdrs` parameter is used to add the JSME headers to the app. The `static` functions is used to serve static files from inside or below the `/` folder (you can place an image in the repo and link to it in your html and it will be served and available).
 
 ```python
 @rt("/")
